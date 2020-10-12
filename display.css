@@ -1,0 +1,122 @@
+li {
+display: inline-block;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
+.card {
+  animation: spin 5s ease;
+  animation-iteration-count: infinite;
+}
+
+.container {
+  perspective: 1000px;
+}
+
+body {
+  margin: 50px auto;
+  font-family: "Lato";
+  font-weight: 300;
+  width: 600px;
+}
+
+div.a-container {
+  background: #060502;
+  padding: 20px;
+}
+div.a-container h1 {
+  text-shadow: 0 1px 0 black;
+  color: #FFD433;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+body {
+  margin: 50px auto;
+  font-family: "Lato";
+  font-weight: 300;
+  width: 600px;
+}
+li {
+  list-style: none;
+}
+
+ul a {
+  transition: border-width 0.4s;
+  text-decoration: none;
+  padding: 10px;
+  color: orange;
+  background: purple;
+  margin: 2px;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-left: 10px gold solid;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  border-width: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: purple;
+}
+
+.button {
+  color: #FFF;
+  background-color: gold;   
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+body {
+  background-color: lightgray;
+}
+
+p {
+  text-align: left;
+  color: purple;
+}
+
+
